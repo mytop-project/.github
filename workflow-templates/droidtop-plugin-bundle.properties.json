@@ -1,0 +1,6 @@
+{
+  "name": "droidtop plugin bundle",
+  "description": "Build, sign and release a droidtop plugin bundle with the shared Droidtop workflow.",
+  "iconName": "octicon package",
+  "categories": ["Deployment"]
+}

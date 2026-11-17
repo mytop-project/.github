@@ -1,0 +1,16 @@
+name: Something it should do
+description: A feature or a change for this repository's plugin or tool.
+labels: []
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What it should do
+      description: What you want to be able to do, and where you would expect to find it.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What it would let you do that you can't today.

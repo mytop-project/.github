@@ -1,0 +1,6 @@
+{
+  "name": "Droidtop commit hygiene",
+  "description": "The Droidtop commit rules, from the shared workflow.",
+  "iconName": "octicon git-commit",
+  "categories": ["Continuous integration"]
+}

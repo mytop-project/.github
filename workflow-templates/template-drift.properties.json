@@ -1,0 +1,6 @@
+{
+  "name": "Droidtop plugin template drift",
+  "description": "Checks that copied tools are the plugin template's own at a tag.",
+  "iconName": "octicon diff",
+  "categories": ["Continuous integration"]
+}

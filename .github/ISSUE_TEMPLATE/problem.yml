@@ -1,0 +1,41 @@
+name: Something doesn't work
+description: This repository's plugin or tool does something wrong, or nothing at all.
+labels: []
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: The steps that make it happen, one per line.
+      placeholder: |
+        1. Open ...
+        2. Press ...
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: This plugin's version, and droidtop's (Settings > System > About).
+      placeholder: "plugin 1.2.0, droidtop 0.2.0-dev.3370"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: The device and its Android version.
+      placeholder: "Retroid Pocket 5, Android 13"
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: Anything droidtop showed (a job's report, an error), or a logcat excerpt. Remove anything private.
+      render: text
