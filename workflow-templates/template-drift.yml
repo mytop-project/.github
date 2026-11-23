@@ -1,7 +1,7 @@
 name: Template drift
 
-# This repository's copies of Droidtop/droidtop-plugin-template's tools are the template's own at the tag pinned below.
-# The check lives once, in Droidtop/droidtop-platforms, pinned by commit. List each copy as
+# This repository's copies of mytop-project/droidtop-plugin-template's tools are the template's own at the tag pinned below.
+# The check lives once, in mytop-project/droidtop-platforms, pinned by commit. List each copy as
 # "<path here> <path in the template>".
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   drift:
-    uses: Droidtop/droidtop-platforms/.github/workflows/plugin-template-drift.yml@b3fd1d13dca24433f33eeadf632dfb0dcf53ef85
+    uses: mytop-project/droidtop-platforms/.github/workflows/plugin-template-drift.yml@b3fd1d13dca24433f33eeadf632dfb0dcf53ef85
     with:
       template-ref: tools-v1
       files: |

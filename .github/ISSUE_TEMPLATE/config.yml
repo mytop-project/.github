@@ -1,7 +1,7 @@
-# Blank issues stay on: these forms are every org repository's default, Droidtop/tracker's included, and the tracker
+# Blank issues stay on: these forms are every org repository's default, mytop-project/tracker's included, and the tracker
 # takes free-form findings.
 blank_issues_enabled: true
 contact_links:
   - name: droidtop or Enginehost itself
-    url: https://github.com/Droidtop/tracker/issues/new
+    url: https://github.com/mytop-project/tracker/issues/new
     about: Problems and requests for droidtop and Enginehost go to the one tracker.

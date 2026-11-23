@@ -1,6 +1,6 @@
 name: Commit hygiene
 
-# The commit rules live once, in Droidtop/droidtop-platforms, pinned by commit.
+# The commit rules live once, in mytop-project/droidtop-platforms, pinned by commit.
 on:
   push:
   pull_request:
